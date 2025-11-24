@@ -1,8 +1,10 @@
 {
-  "name": "tjs-gamehub",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "name": "my-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://taranjot2008.github.io/tjs-gamehub/",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
