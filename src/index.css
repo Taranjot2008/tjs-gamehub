@@ -1,0 +1,91 @@
+@import 'tailwindcss';
+
+:root {
+  --heading-color: #ef476f;
+  --heading-font: 'Poppins', sans-serif;
+  --secondary-font: 'Exo 2';
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(110, 109, 109, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header h1 {
+  text-shadow: 
+    0 0 1px var(--heading-color),   /* small inner glow */
+    0 0 3px var(--heading-color),  /* medium glow */
+    0 0 8px var(--heading-color);  /* outer glow */
+  animation: floatingText 4s ease-in-out infinite;
+}
+
+@keyframes floatingText {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+.main-game-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  place-items: center;
+  gap: 30px;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 375px) {
+  .main-game-container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  .entry-text {
+    padding: 18px 12px;
+  }
+  .entry-container {
+    height: 48vh;
+  }
+  .entry-description {
+    font-size: x-small;
+  }
+  .link-button {
+    font-size: small;
+  }
+}
+
+.entry-overlay {
+  transition: all 0.3s ease-in-out;
+}
+
+.entry-container:hover .entry-overlay {
+  backdrop-filter: blur(5px);
+}
+
+.entry-name {
+  font-family: var(--heading-font);
+  z-index: 1;
+  text-shadow: 
+    0 0 1px var(--heading-color),   /* small inner glow */
+    0 0 1px var(--heading-color),  /* medium glow */
+    0 0 3px var(--heading-color);  /* outer glow */
+}
+
+.entry-description {
+  overflow: hidden;
+  height: 84px;
+  padding: 10px 16px;
+  font-family: var(--secondary-font);
+  z-index: 1;
+}
+
+
