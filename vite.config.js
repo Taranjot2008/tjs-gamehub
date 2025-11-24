@@ -7,4 +7,8 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
+  base: '/tjs-gamehub/',
+  build: {
+    outDir: 'dist'
+  }
 })
