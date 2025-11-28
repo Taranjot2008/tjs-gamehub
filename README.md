@@ -1,16 +1,14 @@
-# React + Vite
+# Gamables
+Welcome to your ultimate gaming hub where you can explore across our different games and play!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Everybody gets bored when there's Nothing to do but wait there is GAMABLES! Enjoy, Play & Explore.
 
-Currently, two official plugins are available:
+## Important Notice!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Not all games listed on my app are my original, some are inspired from other creators.
 
-## React Compiler
+# Updates
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The current version of Gamables is v1.0.0. Any update would be listed down here!
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Explore. Play. Do it again.
